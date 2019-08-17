@@ -63,11 +63,11 @@ SECURE_CONTENT_TYPE_NOSNIFF = env.bool(
 # GS_DEFAULT_ACL = "publicRead"
 # STATIC
 # ------------------------
-STATIC_URL = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/static/"
-# MEDIA
-# ------------------------------------------------------------------------------
-MEDIA_URL = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/media/"
-MEDIA_ROOT = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/media/"
+# STATIC_URL = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/static/"
+# # MEDIA
+# # ------------------------------------------------------------------------------
+# MEDIA_URL = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/media/"
+# MEDIA_ROOT = f"https://storage.googleapis.com/{GS_BUCKET_NAME}/media/"
 
 # TEMPLATES
 # ------------------------------------------------------------------------------
